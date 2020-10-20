@@ -1,4 +1,7 @@
-# RepasoAngular
+# Working with Angular
+
+## Preview
+<img src="./src/assets/images/preview-angular.png" />
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
 
