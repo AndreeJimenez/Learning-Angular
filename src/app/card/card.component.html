@@ -1,0 +1,8 @@
+<div class="card container-card" style="width: 18rem;">
+  <img src="{{ User.image }}" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">{{ User.name | uppercase }}</h5>
+    <p class="card-text">{{ User.description }} - {{ User.id }}</p>
+    <a *ngIf="onShowButton()" (click)=onSendData() class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
